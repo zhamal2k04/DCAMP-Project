@@ -1,6 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+import React from 'react';
+// import './App.css';
+import Header from './componentes/Header';
+import Navbar from './componentes/Navbar';
+// import Sidebar from './componentes/Sidebar';
+// import Footer from './componentes/Footer';
 
+function App() {
+  return (
+    <div className="App">
+      <Header />
+      <Navbar />
+      
+    </div>
+  );
+}
+/*
 function App() {
   return (
     <div className="App">
@@ -21,5 +36,5 @@ function App() {
     </div>
   );
 }
-
-export default App;
+*/
+export default App; 
