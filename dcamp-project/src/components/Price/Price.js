@@ -2,10 +2,12 @@ import React from "react";
 
 const Price = () => {
   return (
+    // Main container
     <div
-      className="relative mt-44 ml-36 rounded-3xl w bg-blue-500"
+      className="relative mt-[176px] ml-36 rounded-3xl w bg-blue-500 "
       style={{ width: "1160px", height: "974px" }}
     >
+      {/* Headings with background image */}
       <div className="text-white  ml-5 ">
         <img
           src="price-bg 1.png"
@@ -43,7 +45,7 @@ const Price = () => {
         </div>
       </div>
       {/* Cards container */}
-      <div className="flex ml-10">
+      <div className="flex -mt-4 ml-2">
         {/* First card */}
         <div
           className=" bg-slate-50 ml-6"
@@ -130,7 +132,7 @@ const Price = () => {
         </div>
         {/* Second card */}
         <div
-          className=" bg-slate-50 ml-6"
+          className=" bg-slate-50 ml-11"
           style={{ width: "334px", height: "713px" }}
         >
           <div
@@ -238,7 +240,7 @@ const Price = () => {
         </div>
         {/* Third card */}
         <div
-          className=" bg-slate-50 ml-6"
+          className=" bg-slate-50 ml-10"
           style={{ width: "334px", height: "713px" }}
         >
           <div
