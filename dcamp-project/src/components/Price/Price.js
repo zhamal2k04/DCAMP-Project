@@ -3,20 +3,18 @@ import React from "react";
 const Price = () => {
   return (
     // Main container
-    <div
-      className="relative mt-[176px] ml-36 rounded-3xl w bg-blue-500 "
-      style={{ width: "1160px", height: "974px" }}
-    >
+    <div className="container relative lg:w-[1160px]  lg:h-[974px] lg:ml-[140px] mt-[174px] mb-[885px] rounded-3xl bg-blue-500 w-[748px] h-[2530px] lg:mt-[132px] lg:mx-[10px]  ">
       {/* Headings with background image */}
-      <div className="text-white  ml-5 ">
+      <div className="flexbox text-white ml-5">
         <img
           src="price-bg 1.png"
           alt=""
-          className=""
+          className="mt-3"
           style={{ width: "1118px", height: "222px" }}
         />
+
         <div
-          className="absolute top-5 ml-96 transform -translate-x-1/2 text-white font-montserrat text-base font-medium leading-5 text-left"
+          className="absolute w-[682px] h-[132px] -mt-[188px] sm:h-[102px]"
           style={{
             fontFamily: "Montserrat",
             fontSize: "18px",
@@ -45,12 +43,9 @@ const Price = () => {
         </div>
       </div>
       {/* Cards container */}
-      <div className="flex -mt-4 ml-2">
+      <div className=" flex flex-wrap justify-center lg:justify-start gap-8 lg:gap-0 lg:mt-0 sm:mt-8">
         {/* First card */}
-        <div
-          className=" bg-slate-50 ml-6"
-          style={{ width: "334px", height: "713px" }}
-        >
+        <div className="w-[334px] h-[713px] bg-slate-50 ml-11">
           <div
             className="mt-4"
             style={{
@@ -67,7 +62,7 @@ const Price = () => {
               <strong>Стандарт</strong>
             </span>
             <br />
-            <span >
+            <span>
               от <strong className="text-"> 80 000</strong> ₽
             </span>
           </div>
@@ -81,9 +76,9 @@ const Price = () => {
             border-solid border-t-transparent border-b-transparent border-r-[#6c49df]"
           ></div>
           <div class="-mt-5 ml-5 h-px w-auto border-t-2 border-dashed border-blue-500"></div>
-
+          {/* List items */}
           <ol
-            className="mt-8 ml-10"
+            className="mt-8 ml-10 :hidden"
             style={{
               fontFamily: "Montserrat",
               fontSize: "14px",
@@ -114,6 +109,7 @@ const Price = () => {
             </li>
           </ol>
           <div className="flex mt-3">
+            {/* Button */}
             <button className="absolute bg-green-500 mt-[290px] ml-[25px] w-[275px] h-[60px] rounded-lg">
               <span
                 className="w-[59px] h-[15px] text-white"
