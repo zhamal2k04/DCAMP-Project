@@ -191,7 +191,7 @@ const Cards = () => {
 
       {/* Button to open the modal */}
       <button
-        className="w-[275px] h-[60px] bg-blue-600 text-white mt-2 rounded-md"
+        className="w-[275px] h-[60px] bg-blue-600 text-white mt-2 rounded-md hover:bg-indigo-600 bg-opacity-100"
         onClick={openModal}
         style={{
           cursor: "url(cursor.png), auto",
