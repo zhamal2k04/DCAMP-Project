@@ -8,7 +8,7 @@ function Navbar() {
         <li className="nav-item">
           <nav to="/главная"><h1>Millenium</h1></nav>
         </li>
-        </ul>
+      </ul>
       <ul className="navbar-nav">
         <li className="nav-item">
           <nav to="/главная">Главная</nav>
@@ -23,15 +23,16 @@ function Navbar() {
           <nav to="/контакты">Контакты</nav>
         </li>
       </ul>
-      <div className="right">
-        <span>+7(495) 555 65 65</span><br />
-        <span>Ежедневно с 09:00 до 18:00</span>
+      <li className="nav-item">
+        <nav to="">
+          <span>+7(495) 555 65 65</span><br />
+          <span>Ежедневно с 09:00 до 18:00</span>
+        </nav>
+      </li>
+      <div>
+        <span className="order-bell"><a href="https://millenium.com">Заказать звонок</a>
+          </span>
       </div>
-      <nav>
-        <ul>    
-          <li><a href="https://millenium.com">Заказать звонок</a></li>
-        </ul>
-      </nav>
     </nav>
   );
 }

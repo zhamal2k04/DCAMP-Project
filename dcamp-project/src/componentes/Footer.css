@@ -1,6 +1,38 @@
 /* App.css */
-.footer {
+/* .footer {
     background-color: #333;
     color: #fff;
     padding: 10px;
+  }  */
+
+  .footer {
+    padding: 1rem;
+    text-align: center;
+    background-color: #f0f0f0;
+    color: #333;
   }
+  
+  .footer p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: inherit; /* Inherit footer text color */
+  }
+  
+  .footer a:hover {
+    color: #000; /* Change link color on hover */
+  }
+  

@@ -19,7 +19,7 @@
 
 .nav-item {
   display: inline-block;
-  margin-right: 4rem;
+  margin-right: 5rem;
   color:mediumblue;
 }
 
@@ -36,4 +36,11 @@
 
 .nav-brand:to:h1 {
   color:mediumblue;
+}
+
+.order-bell {
+  background-color: #42d4c8;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
 }

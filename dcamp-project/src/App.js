@@ -3,7 +3,7 @@ import React from 'react';
 // import './App.css';
 import Navbar from './componentes/Navbar';
 import Header from './componentes/Header';
-// import Sidebar from './componentes/Sidebar';
+// import Image from './componentes/Image';
 // import Footer from './componentes/Footer';
 
 function App() {

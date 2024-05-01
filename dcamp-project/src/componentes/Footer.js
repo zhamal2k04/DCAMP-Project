@@ -1,14 +1,20 @@
 import React from 'react';
-// import './Footer.css';
-import './Navbar.css';
+import './Footer.css';
 
 function Footer() {
-    return (
-      <div className="footer">
-        <p>Contact us: example@email.com</p>
-        <p>Address: 123 Street, City, Country</p>
-      </div>
-    );
-  }
-  
-  export default Footer;
+  return (
+    <footer className="footer">
+      <p>&copy; {new Date().getFullYear()} Your Company Name</p>
+      <ul>
+        <li>
+          <a href="#">About Us</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+    </footer>
+  );
+}
+
+export default Footer;

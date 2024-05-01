@@ -1,14 +1,15 @@
 import React from 'react';
-// import Navbar from './Navbar';
+
 
 function Header() {
   return (
     <header className="header">
-        {/*<Navbar />*/}
-        {/* Add space for logo or additional header content here */}
-        <h1>Разработка итернет-магазинов</h1>
+      <h1>Разработка итернет-магазинов</h1>
         <div class="list-group">
-            <a href="#" class="list-group-item list-group-item-action active" aria-current="true"><h2>на 1С-Битрикс</h2></a>
+          <a href="#" class="list-group-item list-group-item-action active" aria-current="true"><h2>на 1С-Битрикс</h2></a>
+        </div>
+        <div class="card">
+          <img src="img/header.png" class="card-img-top" alt=""></img>
         </div>
         <p>
             <h3>Разработфуь интернет-магазин за 30 дней с уникальным дизайном и <br /> продуманной структурой который выделит вас на фоне конкурентов</h3>
