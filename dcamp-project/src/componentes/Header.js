@@ -1,41 +1,24 @@
 import React from 'react';
-import './Header.css';
+// import Navbar from './Navbar';
 
 function Header() {
   return (
     <header className="header">
-      <div className="logo">Millenium</div>
-      <nav>
-        <ul>
-          <li><a href="/">Главная</a></li>
-        </ul>  
-      </nav>
-      <nav>
-        <ul>    
-          <li><a href="/Цены">Цены</a></li>
-        </ul>
-      </nav>
-      <nav>
-        <ul>    
-          <li><a href="/Кейсы и отзывы">Кейсы и отзывы</a></li>
-        </ul>
-      </nav>
-      <nav>
-        <ul>    
-          <li><a href="/Контакты">Контакты</a></li>
-        </ul>
-      </nav>
-      <div className="right">
-            <span>+7(495) 555 65 65</span><br />
-            <span>Ежедневно с 09:00 до 18:00</span>
-            <nav>
-        <ul>    
-          <li><a href="https://millenium.com">Заказать звонок</a></li>
-        </ul>
-      </nav>
-            
-          </div>
-      
+        {/*<Navbar />*/}
+        {/* Add space for logo or additional header content here */}
+        <h1>Разработка итернет-магазинов</h1>
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action active" aria-current="true"><h2>на 1С-Битрикс</h2></a>
+        </div>
+        <p>
+            <h3>Разработфуь интернет-магазин за 30 дней с уникальным дизайном и <br /> продуманной структурой который выделит вас на фоне конкурентов</h3>
+        </p>
+        <div class="list-group">
+          <a href="#" class="list-group-item list-group-item-action active" aria-current="true"><h2>Узнать стоимость</h2></a>
+        </div>
+        <p>
+          <h3> Оставьте заявку и получите бесплатную консультацию от специалиста, <br /> полный расчет стоимости разработки и бонус:<br /> "15 сервисов которые покажут стратегию продвижения конкурентов, <br /> всё об их выдаче в поиске и не толко"</h3>
+        </p>
     </header>
   );
 }
