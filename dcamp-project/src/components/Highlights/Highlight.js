@@ -14,49 +14,161 @@ const Highlight = () => {
     setModalOpen(false);
   };
   return (
-    <div className="w-[1255px] h-[1661px]">
-      <h1>Что вы получаете?</h1>
+    <div className="w-[1255px] h-[1661px] ml-[112px]">
+      <h1 className="mt-2 font-montserrat font-extrabold text-4xl  leading-11 text-left ml-[140px] text-indigo-900">
+        Что вы{" "}
+        <strong className="text-blue-500 font-extrabold">получаете?</strong>
+      </h1>
       <br />
+
       <div className="flex">
-        <img src="./group_22.png" alt="" />
-        <div className="text-left">
-          <h1 className="text-center mt-6"> Каталог товаров</h1>
-          <li>возможность выгружать свои товары в неограниченном количестве</li>
-          <li>добавлять и редактировать описание товаров</li>
-          <li>сортировать товары по заданным критериям</li>
-          <li>сортировать товары по заданным критериям</li>
+        <img className="ml-[1px] -mt-2" src="./group_22.png" alt="" />
+        <div className="text-indigo-900 font-montserrat text-sm font-thin ml-[120px] mt-28">
+          <h1 className="font-montserrat text-base font-bold text-left text-blue-600 mb-3">
+            Каталог товаров
+          </h1>
+          <div
+            className="text-indigo-900 font-montserrat text-sm font-thin"
+            // style={{ lineHeight: "1.2px" }}
+          >
+            <ul className="list-none">
+              <li className="flex items-center font-montserrat text-base font-normal leading-[17.07px] text-left">
+                <span className="text-indigo-950 inline-block text-4xl mr-2">
+                  &#8226;
+                </span>{" "}
+                возможность выгружать свои товары в неограниченном количестве
+              </li>
+              <li className="flex items-center font-montserrat text-base font-normal leading-[17.07px] text-left">
+                <span className="text-indigo-950 inline-block text-4xl mr-2 ">
+                  &#8226;
+                </span>{" "}
+                добавлять и редактировать описание товаров
+              </li>
+              <li className="flex items-center font-montserrat text-base font-normal leading-[17.07px] text-left">
+                <span className="text-indigo-950 inline-block text-4xl mr-2">
+                  &#8226;
+                </span>{" "}
+                сортировать товары по заданным критериям
+              </li>
+              <li className="flex items-center font-montserrat text-base font-normal leading-[17.07px] text-left">
+                <span className="text-indigo-950 inline-block text-4xl mr-2">
+                  &#8226;
+                </span>{" "}
+                сортировать товары по заданным критериям
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
+
       <div className="flex">
         <div className="text-left ml-6">
-          <h1 className="text-center mt-6"> Оформление заказа</h1>
-          <li>личный кабинет</li>
-          <li>корзина с отображением выбранных товаров</li>
-          <li>оформление заказа с указанием контактных данных</li>
-          <li>возможность приема онлайн-платежей</li>
-          <li>использование купонов, скидок и специальных предложений</li>
+          <h1 className="font-montserrat text-base font-bold text-left text-blue-600 mb-3">
+            {" "}
+            Оформление заказа
+          </h1>
+          <div className="text-indigo-900 font-montserrat text-sm font-thin">
+            <ul className="list-none ">
+              {/* Remove default list styles */}
+              <li className="flex items-center font-montserrat text-base font-normal leading-[17.07px] text-left">
+                <span className="text-indigo-950 inline-block text-4xl mr-2">
+                  &#8226;
+                </span>{" "}
+                личный кабинет
+              </li>
+              <li className="flex items-center font-montserrat text-base font-normal leading-[17.07px] text-left">
+                <span className="text-indigo-950 inline-block text-4xl mr-2">
+                  &#8226;
+                </span>{" "}
+                корзина с отображением выбранных товаров
+              </li>
+              <li className="flex items-center font-montserrat text-base font-normal leading-[17.07px] text-left">
+                <span className="text-indigo-950 inline-block text-4xl mr-2">
+                  &#8226;
+                </span>{" "}
+                оформление заказа с указанием контактных данных
+              </li>
+              <li className="flex items-center font-montserrat text-base font-normal leading-[17.07px] text-left">
+                <span className="text-indigo-950 inline-block text-4xl mr-2">
+                  &#8226;
+                </span>{" "}
+                возможность приема онлайн-платежей
+              </li>
+              <li className="flex items-center font-montserrat text-base font-normal leading-[17.07px] text-left">
+                <span className="text-indigo-950 inline-block text-4xl mr-2">
+                  &#8226;
+                </span>{" "}
+                использование купонов, скидок и специальных предложений
+              </li>
+            </ul>
+          </div>
         </div>
-        <img src="./Group_23.png" alt="" />
+        <img className="ml-[122px] -mt-8" src="./Group_23.png" alt="" />
       </div>
+
       <div className="flex">
-        <img src="./group_24.png" alt="" />
-        <div className="text-left">
-          <h1 className="text-center mt-6"> Интеграции</h1>
-          <li>
-            1С, Мой склад (выгрузка товаров на сайт, полная синхронизация)
-          </li>
-          <li>Маркетплейсы (Яндекс.Маркет, Wildberries, Goods, Ozon)</li>
-          <li>Интеграция со службами доставки СДЭК, Почта России</li>
+        <img className="ml-[1px] -mt-2" src="./group_24.png" alt="" />
+        <div className="text-indigo-900 font-montserrat text-sm font-thin ml-[120px] mt-28">
+          <h1 className="font-montserrat text-base font-bold text-left text-blue-600 mb-3">
+            {" "}
+            Интеграции
+          </h1>
+          <div className="text-indigo-900 font-montserrat text-sm font-thin">
+            <ul className="list-none ">
+              {/* Remove default list styles */}
+              <li className="flex items-center font-montserrat text-base font-normal leading-[17.07px] text-left">
+                <span className="text-indigo-950 inline-block text-4xl mr-2">
+                  &#8226;
+                </span>{" "}
+                1С, Мой склад (выгрузка товаров на сайт, полная синхронизация)
+              </li>
+              <li className="flex items-center font-montserrat text-base font-normal leading-[17.07px] text-left">
+                <span className="text-indigo-950 inline-block text-4xl mr-2">
+                  &#8226;
+                </span>{" "}
+                Маркетплейсы (Яндекс.Маркет, Wildberries, Goods, Ozon)
+              </li>
+              <li className="flex items-center font-montserrat text-base font-normal leading-[17.07px] text-left">
+                <span className="text-indigo-950 inline-block text-4xl mr-2">
+                  &#8226;
+                </span>{" "}
+                Интеграция со службами доставки СДЭК, Почта России
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
+
       <div className="flex">
-        <div className="text-left  ml-5">
-          <h1 className="text-center ">CRM</h1>
-          <li>фиксация и отслеживание поступивших заявок</li>
-          <li>уведомления о заказах</li>
-          <li>отчетность магазина</li>
+        <div className="text-left  ml-6">
+          <h1 className="font-montserrat text-base font-bold leading-6 text-left text-blue-600 mb-3 mt-20">
+            CRM
+          </h1>
+          <div className="text-indigo-900 font-montserrat text-sm font-thin">
+            <ul className="list-none ">
+              {/* Remove default list styles */}
+              <li className="flex items-center font-montserrat text-base font-normal leading-[17.07px] text-left">
+                <span className="text-indigo-950 inline-block text-4xl mr-2">
+                  &#8226;
+                </span>{" "}
+                фиксация и отслеживание поступивших заявок
+              </li>
+              <li className="flex items-center font-montserrat text-base font-normal leading-[17.07px] text-left">
+                <span className="text-indigo-950 inline-block text-4xl mr-2">
+                  &#8226;
+                </span>{" "}
+                уведомления о заказах
+              </li>
+              <li className="flex items-center font-montserrat text-base font-normal leading-[17.07px] text-left">
+                <span className="text-indigo-950 inline-block text-4xl mr-2">
+                  &#8226;
+                </span>{" "}
+                отчетность магазина
+              </li>
+            </ul>
+          </div>
         </div>
-        <img className="mb-8" src="./Group_26.png" alt="" />
+        <img className="mb-8 ml-64" src="./Group_26.png" alt="" />
       </div>
 
       {/* Modal */}
@@ -79,7 +191,7 @@ const Highlight = () => {
 
       {/* Button to open the modal */}
       <button
-        className="w-[275px] h-[60px] bg-blue-600 text-white mt-2 rounded-md hover:bg-indigo-600 bg-opacity-100"
+        className=" w-[275px] h-[60px] bg-blue-600 text-white mt-16 rounded-md hover:bg-indigo-600 bg-opacity-100 ml-12"
         onClick={openModal}
         style={{
           cursor: "url(cursor.png), auto",
