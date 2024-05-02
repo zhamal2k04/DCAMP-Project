@@ -44,16 +44,3 @@
   border-radius: 5px;
   color: white;
 }
-
-header {
-  text-align: left;
-  background-color:#ffffff;
-  padding: 20px;
-}
-
-.header-jpg {
-  width: 100%;
-  max-width: 500px; /* Rasmning kengligi belgilangan miqdori orqali o'zgartirilishi mumkin */
-  display: block;
-  margin: 0 auto;
-  }
