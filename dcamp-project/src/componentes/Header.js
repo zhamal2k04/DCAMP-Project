@@ -1,12 +1,12 @@
 import jpg from './header.jpg';
 import React from 'react';
 
+
 function Header() {
   return (
     <header className="header">
       <img src={jpg}  className="Header-jpg" alt="jpg" style={{  position: 'absolute', top: 2, right: 10 }} /> {/* rasm o'ng tomoniga chiqadi */}
       <h2 style={{float: 'left'}}></h2> {/* text chap tomoniga chiqadi */}
-    
       <h1>Разработка итернет-магазинов</h1>
         <div class="list-group">
           <a href="#" class="list-group-item list-group-item-action active" aria-current="true"><h2>на 1С-Битрикс</h2></a>
@@ -28,3 +28,5 @@ function Header() {
 }
 
 export default Header;
+
+

@@ -3,7 +3,7 @@ import React from 'react';
 // import './App.css';
 import Navbar from './componentes/Navbar';
 import Header from './componentes/Header';
-// import Image from './componentes/Image';
+import Image from './componentes/Image';
 // import Footer from './componentes/Footer';
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
       
       <Navbar />
       <Header />
+      <Image />
     </div>
   );
 }

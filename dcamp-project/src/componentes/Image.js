@@ -1,14 +1,25 @@
 import React from 'react';
-import './Image.css';
+import headerImage from './office.png'; 
 
-function ImageComponent() {
-  const imageUrl = 'path/to/your/image.jpg'; // Image URL
+
+function Header() {
+  const imageWidth = 1290; 
+  const imageHeight = 590;
 
   return (
-    <div className="image-container" style={{ backgroundImage: `url(${imageUrl})` }}>
-      {/* Content to be displayed over the image (optional) */}
-    </div>
+    <header className="header">
+      <div className="header-content">
+        { }
+      </div>
+      <img
+        src={headerImage}
+        alt="Your website header image"
+        className="header-image"
+        width={imageWidth}
+        height={imageHeight}
+      />
+    </header>
   );
 }
 
-export default ImageComponent;
+export default Header;
