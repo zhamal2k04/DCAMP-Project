@@ -1,0 +1,45 @@
+
+  .header {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-brand {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .header-link {
+    text-decoration: none;
+    color: #333;
+    margin-right: 20px;
+  }
+  
+  .header-link:hover {
+    color: #007bff;
+  }
+  
+  .h2 {
+    color: #007bff;
+  }
+ 
+ /* App.css */
+/*.header {
+    background-color: #f2f2f2;
+    padding: 20px;
+  } */
+  
+  /*
+  .Header {
+    display: grid;
+    grid-template-areas: "logo nav";
+  }
+  .Nav {
+    grid-area: nav;
+    display: grid;
+    grid-template-columns: repeat(4 area);
+  }
+  */

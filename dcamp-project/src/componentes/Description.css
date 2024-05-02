@@ -1,0 +1,15 @@
+.description {
+    display: flex;
+    /* Other styles for the overall description container */
+    text-align: center;
+  background-color:#ffffff;
+  padding: 20px;
+  }
+  
+  .description-left,
+  .description-right {
+    flex: 1; /* Make both sides take up equal space */
+    padding: 1rem; /* Add some padding */
+  }
+  
+  
